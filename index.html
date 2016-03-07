@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ryan Bird</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+
+</head>
+<body>
+	<div id="page">
+		<div class="content">
+			<h1>UX Developer</h1>
+		</div>
+		<section class="main">
+			
+			<div class="deskPop">
+				<div class="logo">
+					<img src="img/ryanbird-logo-flat-small.png">
+				</div>
+				<div class="headline">
+					<div>
+						<span><h2>Ryan Bird</h2></span>
+					</div>
+				</div>		
+			</div>
+			<div class="howdyWrap">
+				<h2 class="desktopGreeting">Hi, I'm Ryan Bird</h2>
+				<div class="desktopDescription">
+					<p>With a Bachelor’s degree in Graphic Design, and recently completing the 6 month long Full Stack Immersive program at Galvanize, I am confident that I will be an asset to your team.</p>
+				</div>
+			</div>
+			<div class="box-wrap">
+				<div class="box super-name">
+					<h3 id="superName">UX</h3>
+					<p>Empathetic</p>
+				</div>
+				<div class="box super-power">
+					<h3 id="superPower">UI</h3>
+					<p>Eye for Design</p>
+				</div>
+				<div class="box super-krypto">
+					<h3 id="superKrypto">Dev</h3>
+					<p>Right tool for the job.</p>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+ <script>
+$(document).ready(function(){
+
+    $("#superName").click(function(){
+        $(".super-name p").toggle();
+    });
+    $("#superPower").click(function(){
+        $(".super-power p").toggle();
+    });
+    $("#superKrypto").click(function(){
+        $(".super-krypto p").toggle();
+    });
+});
+// </script>
+
+</html>

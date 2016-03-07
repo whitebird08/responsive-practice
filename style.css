@@ -1,0 +1,140 @@
+body { font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 600; color: #000000; margin: 0; padding: 0}
+body { background-color: #F3413C;}
+h1, h2, h3, p {
+ 	padding: 5px;
+ 	margin:5px;
+}
+
+h1, h2, h3{
+	display: inline-block;
+}
+
+h2,h3 {
+		color: #F68F1F;
+	}
+
+.content{
+	margin: 10px 0 3px 0;
+	padding-bottom: 30px;
+	color:white;
+	text-shadow: 0 2px 2px grey;
+}
+
+p {
+	margin: 10px;
+}
+
+#page {
+	text-align: center;
+	margin: 0px 40px 0px 30px;
+}
+section.main {
+	background-color: white;
+	padding:10px 0 0px 0;
+	box-shadow: 0 1px 10px #888;
+}
+
+.logo img {
+	/*border-radius: 50%;*/
+	padding:15px 5px 5px 5px;
+}
+
+.headline {
+	margin: 10px;
+}
+
+.box-wrap {
+	padding-bottom: 10px;
+	width:100%;
+}
+
+.box {
+	padding-bottom: 5px;
+	margin: 10px;
+	background-color: #ECECEC;
+	vertical-align: top;
+}
+
+.super-name p, .super-power p, .super-krypto p {
+	display: none;
+}
+
+@media screen and (max-width: 360px) { 
+	.content {
+		font-size: .8em;
+	}
+}
+
+@media screen and (min-width: 768px) { 
+	.box {
+		display: inline-block;
+  		margin: 1% 1% 1% 1%;
+  		padding-top: 20px;
+  		padding-bottom: 20px;
+		width:30%;
+		font-size: .8em;
+	}
+}
+
+@media screen and (max-width: 1200px) { 
+	h2.desktopGreeting {
+		display:none;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	h1, h2, h3, p {
+		background-color: transparent;
+	}
+
+	.box {
+		height: 9em;
+		border-radius: 4px;
+		font-size: 1em;
+	}
+
+	img {
+		width:65%;
+	}
+
+	.deskPop {
+		border: 2px solid white;
+		float: left;
+		margin-top:-30px;	
+		margin-left: -30px;
+		margin-bottom: 10px;
+		padding-right: 5.5%;
+		padding-left: 5.5%;
+		padding-bottom: 2%;
+		background-color: white;
+		box-shadow: 1px 3px 4px grey;
+		border-radius: 5px;
+	}
+	.box-wrap {
+		clear: left;
+		width: 100%;
+	}
+
+	body {
+		padding: 10px;
+	}
+
+	.content {
+		padding-bottom: 30px;
+		color:white;
+		text-shadow: 0 2px 2px grey;
+		font-size: 1.2em;
+	}
+
+	section.main {
+		border-radius: 10px 10px 5px 5px;
+	}
+
+	.howdyWrap {
+		text-align: left;
+		float: left;	
+		padding: 20px;
+		width: 60%;
+	}
+
+}
