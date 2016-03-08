@@ -65,6 +65,12 @@ section.main {
 	}
 }
 
+@media screen and (max-width: 500px) { 
+		.logo img {
+		width:65%;
+	}
+}
+
 @media screen and (min-width: 768px) { 
 	.box {
 		display: inline-block;
