@@ -1,5 +1,5 @@
 body { font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 600; color: #000000; margin: 0; padding: 0}
-body { background-color: #F3413C;}
+body { background-color: #358EF0;}
 h1, h2, h3, p {
  	padding: 5px;
  	margin:5px;
@@ -51,7 +51,7 @@ section.main {
 .box {
 	padding-bottom: 5px;
 	margin: 10px;
-	background-color: #ECECEC;
+	background-color: #4CB4FC;
 	vertical-align: top;
 }
 
